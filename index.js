@@ -3,12 +3,12 @@ const box = document.querySelector(".box");
 const faces = document.querySelectorAll(".faces");
 const images = document.querySelectorAll(".tardis");
 
-// box.addEventListener("wheel", (e) => {
-//     e.preventDefault();
-//     angle += e.deltaY * 0.45;
-//     // console.log(angle)
-//     faces.style.transform = `rotateY(${angle}deg)`
-// }, {passive: false});
+box.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    angle += e.deltaY * 0.225;
+    console.log(angle)
+    box.style.transform = `rotateY(${angle}deg)`
+}, {passive: false});
 
 // const observer = new ResizeObserver(entries => {
 //     entries.forEach(entry => {
