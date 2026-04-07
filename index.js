@@ -5,7 +5,7 @@ const images = document.querySelectorAll(".tardis");
 
 box.addEventListener("wheel", (e) => {
     e.preventDefault();
-    angle += e.deltaY * 0.225;
+    angle += e.deltaY * 0.1;
     console.log(angle)
     box.style.transform = `rotateY(${angle}deg)`
 }, {passive: false});
