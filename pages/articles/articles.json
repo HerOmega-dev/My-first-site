@@ -1,0 +1,13 @@
+[
+    {
+        "id": "classic",
+        "category": "Classic Era",
+        "title": "Doctor who classic era",
+        "content": "La première série appelée 'Ere classique' compte 26 saisons, diffusées sur BBC One du 23 novembre 1963 au 6 décembre 1989. Créée par Sydney Newman et produite par Verity Lambert, la série devait au départ avoir un caractère éducatif, le voyage dans le Temps étant un prétexte pour apprendre les Sciences et l'Histoire aux enfants regardant Doctor Who. Le premier épisode 'An Unearthly Child' introduit le personnage du Docteur sous sa 1ère incarnation, joué par William Hartnell. Cette série verra sept incarnations du docteur se succéder avant quelle soit annulée. En 1996, un téléfilm sera produit en montrant les débuts du 8eme docteur. Ce téléfilm devait être un pilote dans l'espoir de redémarer la série mais celui çi n'aura pas le succès escompté.",
+        "img": "/assets/images/logo_classic.jpg",
+        "altImg": "Logo-classic-era",
+        "lectureTime": "temps de lecture : 5 min",
+        "author": "Auteur : HerOmega",
+        "date": "Date : 16/04/2026"
+    }
+]

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "doctor-who";
-    src: url(./assets/font/Doctor-Who.ttf);
+    src: url(/assets/font/Doctor-Who.ttf);
 }
 
 :root {
@@ -15,11 +15,11 @@
 html, body {
     box-sizing: border-box;
     margin: 0;
-    background-image: url(./assets/images/galifrean.jpg);
+    background-image: url(/assets/images/galifrean.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
-    width: 100vw;
+    width: auto;
     height: auto;
     font-family: "doctor-who";
     font-size: 16px;
@@ -30,13 +30,13 @@ header {
     height: 100vh;
 }
 
-nav {
+header nav {
     position: absolute;
     top: 3rem;
     right: 3rem;
 }
 
-ul {
+header ul {
     list-style: none;
     margin-block: 0;
     padding-inline-start: 0;
@@ -44,7 +44,7 @@ ul {
     gap: 3rem;
 }
 
-a {
+header ul a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ a {
     box-shadow: 0 0 65px 0 rgba(255, 255, 255, 0.5);
 }
 
-#titles {
+header #titles {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -67,12 +67,12 @@ a {
     gap: 3rem;
 }
 
-h1 {
+header h1 {
     margin-block: 0;
     font-size: 16rem;
 }
 
-h2 {
+header h2 {
     margin-block: 0;
     font-size: 9rem;
 }
@@ -83,6 +83,14 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.eras a {
+    color: var(--color6);
+    text-decoration: none;
+    display: block;
+    height: fit-content;
+    width: fit-content;
 }
 
 .eras img {
