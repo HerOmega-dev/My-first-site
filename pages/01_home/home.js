@@ -42,7 +42,7 @@ const imgs = document.querySelectorAll("article img")
 console.log(imgs)
 imgs.forEach(imgs => {
     imgs.addEventListener('click', () => {
-        window.location.href = `/pages/articles/articles.html?id=${imgs.id}`
+        window.location.href = `pages/articles/articles.html?id=${imgs.id}`
         console.log(location)
     })
     const imgsID = imgs.id

@@ -1,4 +1,4 @@
-import navbar from '/navbar.js';
+import navbar from '../../navbar.js';
 navbar()
 
 const main = document.querySelector('main')
