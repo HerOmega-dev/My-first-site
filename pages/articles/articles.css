@@ -61,7 +61,7 @@ main {
 }
 
 article {
-    width: 60%;
+    width: 40%;
     height: auto;
 }
 
@@ -69,4 +69,16 @@ article img {
     aspect-ratio: 16 / 9;
     width: 100%;
     height: auto;
+}
+
+#info {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+#content {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: justify;
 }

@@ -98,6 +98,10 @@ header h2 {
     aspect-ratio: 1 / 1;
 }
 
+.eras img:hover {
+    box-shadow: 0 0 65px 0 rgba(226, 211, 42, 0.432);
+}
+
 .eras p {
     text-align: center;
     font-size: 4rem;

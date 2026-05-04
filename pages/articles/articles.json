@@ -3,11 +3,35 @@
         "id": "classic",
         "category": "Classic Era",
         "title": "Doctor who classic era",
-        "content": "La première série appelée 'Ere classique' compte 26 saisons, diffusées sur BBC One du 23 novembre 1963 au 6 décembre 1989. Créée par Sydney Newman et produite par Verity Lambert, la série devait au départ avoir un caractère éducatif, le voyage dans le Temps étant un prétexte pour apprendre les Sciences et l'Histoire aux enfants regardant Doctor Who. Le premier épisode 'An Unearthly Child' introduit le personnage du Docteur sous sa 1ère incarnation, joué par William Hartnell. Cette série verra sept incarnations du docteur se succéder avant quelle soit annulée. En 1996, un téléfilm sera produit en montrant les débuts du 8eme docteur. Ce téléfilm devait être un pilote dans l'espoir de redémarer la série mais celui çi n'aura pas le succès escompté.",
+        "content": "La premiere serie appelee Ere classique compte 26 saisons, diffusees sur BBC One du 23 novembre 1963 au 6 decembre 1989. Creee par Sydney Newman et produite par Verity Lambert, la serie devait au depart avoir un caractere educatif, le voyage dans le Temps etant un pretexte pour apprendre les Sciences et l'Histoire aux enfants regardant Doctor Who. Le premier episode 'An Unearthly Child' introduit le personnage du Docteur sous sa 1ere incarnation, joue par William Hartnell. Cette serie verra sept incarnations du docteur se succeder avant quelle soit annulee. En 1996, un telefilm sera produit en montrant les debuts du 8eme docteur. Ce telefilm devait etre un pilote dans l'espoir de redemarer la serie mais celui ci n'aura pas le succes escompte.",
         "img": "/assets/images/logo_classic.jpg",
         "altImg": "Logo-classic-era",
         "lectureTime": "temps de lecture : 5 min",
         "author": "Auteur : HerOmega",
         "date": "Date : 16/04/2026"
+    },
+
+    {
+        "id": "newWho",
+        "category": "New Era",
+        "title": "Doctor who new era",
+        "content": "A la fin des annees 1990, le senariste Russell T Davies propose un retour de la serie. Son idee est d'adapter le format a un public plus moderne en utilisant des effets numeriques. L'histore s'inscrit dans la continuite de la serie classique et du telefilm. Le nouveau Docteur est accompagne d'une nouvelle compagne qui est vu comme une meilleure amie en comparaison a la serie classique qui lui donnait un ton professoral. Cette serie appelee 'Ere New Who' difusee de 2005 a 2022 est composee de 13 saisons et voit 5 autres incarnations du Docteur, du 9eme au 13eme.",
+        "img": "/assets/images/logo_new.png",
+        "altImg": "Logo-new-era",
+        "lectureTime": "temps de lecture : 5 min",
+        "author": "Auteur : HerOmega",
+        "date": "Date : 21/04/2026"
+    },
+
+    {
+        "id": "whoniverse",
+        "category": "Whoniverse Era",
+        "title": "Doctor who Whoniverse era",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "img": "/assets/images/logo_new_disney.jpg",
+        "altImg": "Logo-whoniverse-era",
+        "lectureTime": "temps de lecture : 5 min",
+        "author": "Auteur : HerOmega",
+        "date": "Date : 25/04/2026"
     }
 ]

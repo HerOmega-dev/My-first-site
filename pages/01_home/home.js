@@ -22,74 +22,29 @@ box.addEventListener("wheel", (e) => {
     box.style.transform = `rotateY(${angle}deg)`
 }, {passive: false});
 
-//---Appel des articles---
+//---Récupérer l'id de l'article dans l'url de la page---
 
-// const classic = document.querySelector("#classic");
-// const newWho = document.querySelector("#new");
-// const disney = document.querySelector("#disney");
+//  
+// console.log(id)
 
-// classic.addEventListener('click', () => {
-//     window.location.href = '../classic.html'
-// })
-
-const param = new URLSearchParams(window.location.search)
-const id = param.get('id')
-console.log(typeof(id))
-
-fetch("../articles.json")
-.then (Response => Response.json())
-.then (data => {
-    console.log(data)
-    const article = data.filter(art => art.id == id)
-    console.log(article)
-    id.addEventListener('click', () => {
-        window.location.href = `../article.html?id=${article.id}`
-    })
-})
-
-
-// //---Cours - fetch---
-// fetch('home.json',{})
-// //{method : 'GET'} implicite
-// .then(response => response.json())
-// .then(article => {
-//     console.log(article)
-//     const h1 = document.createElement('h1')
-//     h1.textContent = article.titre
-//     document.body.appendChild(h1)
+// fetch("../articles/articles.json")
+// .then (Response => Response.json())
+// .then (data => {
+//     // console.log(data)
+//     const article = data.filter(art => art.id == id)
+//     // console.log(article)
+//     id.addEventListener('click', () => {
+//         window.location.href = `../articles/article.html?id=${article.id}`
+//     })
 // });
 
-// // ---Cours - Méthode post avec headers--- 
-// // const token que j'ai pas récupéré
-// fetch('home.js', {
-//     method :'POST',
-//     headers : {
-//     "Content-Type" : "application/json",
-//     "Authorization" : `Bearer ${token}`
-//     },
-//     body : JSON.stringify(article)
-// })
-// then(res => {
-//     if (res.ok && res.status === 200) {
-//         console.log("L'article a été ajouté")
-//     }
-// })
-
-// // ---Cours---
-// async function getArticle() {
-//     try {
-//         const response = await fetch('home.js');
-//         console.log(response);
-//         if (response.ok) {
-//             const data = await response.json()
-//             console.log(data)
-//         }
-//         if (!response.ok) {
-//             throw new Error('ressource non trouvée')
-//         }
-//     }
-//     catch (error) {
-//         console.log(error)
-//     }
-// }
-// getArticle()
+const imgs = document.querySelectorAll("article img")
+console.log(imgs)
+imgs.forEach(imgs => {
+    imgs.addEventListener('click', () => {
+        window.location.href = `/pages/articles/articles.html?id=${imgs.id}`
+        console.log(location)
+    })
+    const imgsID = imgs.id
+    console.log(imgsID)
+})
